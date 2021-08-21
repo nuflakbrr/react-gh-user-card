@@ -39,9 +39,9 @@ const UserDetails = () => {
                 </FlexWithIcons>
 
                 <div className="flex flex-row items-center my-2 flex-wrap md:flex-nowrap justify-center md:justify-between">
-                  <div className="bg-yellow-500 py-1 px-3 text-gray-100 rounded mr-2 text-center text-sm md:text-md">{userData?.public_repos} Repository</div>
-                  <div className="bg-green-500 py-1 px-3 text-gray-100 rounded mx-2 text-center text-sm md:text-md">{userData?.followers} Followers</div>
-                  <div className="bg-pink-500 py-1 px-3 text-gray-100 rounded mx-2 text-center text-sm md:text-md mt-2 md:mt-0">{userData?.following} Following</div>
+                  <div className="bg-green-700 py-1 px-3 text-gray-100 rounded mr-2 text-center text-sm md:text-md">{userData?.public_repos} Repository</div>
+                  <div className="bg-indigo-700 py-1 px-3 text-gray-100 rounded mx-2 text-center text-sm md:text-md">{userData?.followers} Followers</div>
+                  <div className="bg-red-600 py-1 px-3 text-gray-100 rounded mx-2 text-center text-sm md:text-md mt-2 md:mt-0">{userData?.following} Following</div>
                 </div>
               </div>
             </div>
